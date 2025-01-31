@@ -11,7 +11,7 @@
 <body>
     <div>
         <h1>Contact</h1>
-        <form action="" method="post">
+        <form action="traitement.php" method="post">
                 <label for="name">Votre nom:</label>
                 <input type="text" name="name" id="name" required><br><br>
 
@@ -26,7 +26,7 @@
                 </select>
                 <br><br>
                 <label for="message">Votre message:</label>
-                <textarea placeholder="Exprimez-vous" name="message"></textarea><br><br>
+                <textarea placeholder="Exprimez-vous" name="message" required></textarea><br><br>
                 <button type="submit">Envoyer</button> 
         </form>
         </div>
