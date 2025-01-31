@@ -1,0 +1,17 @@
+label {
+	display: block;
+	width: 150px;
+	float: left;
+    
+}
+
+input {
+   border-radius: 5px;
+   width: 10%;
+}
+
+textarea {
+    width: 15%;
+    height: 8em;
+    border-radius: 5px;
+  }
