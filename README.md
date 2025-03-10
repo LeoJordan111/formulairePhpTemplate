@@ -2,9 +2,9 @@
 Formulaire gérant l'envoie de mail
 
 Dans le fichier composer.json :
-    Vous devez avoir 1 require
-        "phpmailer/phpmailer": "^6.9"
-    Pour les installer, dans l'invite commande --> composer require phpmailer/phpmailer
+    Vous devez avoir 2 require
+        _ composer "vlucas/phpdotenv": "^5.6"
+        _ PHP mailer "phpmailer/phpmailer": "^6.9". Pour l'installer, dans l'invite commande --> composer require phpmailer/phpmailer
 
 La page de traitement comprend 4 variables d'environnements :
 MAIL_HOST --> Défini le serveur SMTP qui permettra d'envoyer.
